@@ -1,7 +1,7 @@
 from fastapi import APIRouter, status
 from sistema_estudos.schemas.produtos import ProdutoListPublicSchema, ProdutoPublicSchema,ProdutoSchema
 from typing import Optional, List
-from db import PRODUTOS
+from sistema_estudos.db import PRODUTOS
 
 router = APIRouter()
 
